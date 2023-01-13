@@ -42,3 +42,25 @@ hr{
 	margin-left: 16px;
 	font-size: 18px;
 }
+.blog{
+	display: flex;
+}
+.blog .thumbnails img{
+	width: 177px;
+	height: 117px;
+}
+.blog-info{
+	margin-left: 16px;
+}
+.blog-title{
+	font-size: 20px;
+}
+.blog-author{
+	color: #9F9F9F;
+	font-size: 16px;
+}
+.blog-author a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #562EFF;
+}
