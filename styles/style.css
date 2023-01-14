@@ -126,3 +126,34 @@ hr{
 .fa-clock{
 	color: #FF4A60;
 }
+/*----------------------
+Media Query
+-------------------------*/
+/*----------------------
+Mobile Devices 
+-------------------------*/
+@media only screen and (max-width:668px){
+	.container{
+		width: 100%;
+	}
+	.players, .blogs, .courses{
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+		}
+	.player, .blog{
+		flex-direction: column;
+		align-items: center;
+	}
+	}
+
+/*----------------------
+Tablet Devices 
+-------------------------*/
+@media only screen and (min-width:668px) and (max-width:992px){
+	.container{
+		width: 100%;
+	}
+	.players, .blogs, .courses{
+		grid-template-columns: repeat(2, 1fr);
+		}
+	}
