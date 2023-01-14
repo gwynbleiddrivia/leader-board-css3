@@ -95,8 +95,15 @@ hr{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 25px;
 }
+.course{
+	border: 0px solid #FFFFFF;
+	border-width: 12px;
+}
 .course-banner{
 	margin-top: 5px;
+}
+.course-title{
+	overflow-wrap: normal;
 }
 .course-author{
 	margin-bottom: 19px;
